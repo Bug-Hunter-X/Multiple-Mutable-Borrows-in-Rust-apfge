@@ -1,0 +1,2 @@
+# Multiple Mutable Borrows in Rust
+This example demonstrates a common error in Rust: attempting to create multiple mutable borrows of the same variable.  Rust's ownership and borrowing system prevents data races by disallowing this. The solution involves refactoring to avoid mutable borrows on the same variable simultaneously.
